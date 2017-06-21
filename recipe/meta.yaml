@@ -1,0 +1,28 @@
+{% set name = "csdms-permamodel-ku" %}
+{% set version = "0.1" %}
+
+package:
+  name: {{ name }}
+  version: {{ version }}
+
+source:
+  git_url: https://github.com/permamodel/permamodel
+
+requirements:
+  build:
+    - bmi-babel
+    - pymt
+    - permamodel
+  run:
+    - bmi-babel
+    - permamodel
+
+test:
+  requires:
+    - pymt
+
+about:
+  home: https://csdms.colorado.edu/wiki/Model:Kudryavtsev_Model
+  license: MIT
+  summary: The point version of the Kudryavtsev model from Permamodel.
+  dev_url: https://github.com/permamodel/permamodel
