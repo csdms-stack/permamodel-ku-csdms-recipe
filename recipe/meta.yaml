@@ -12,11 +12,11 @@ source:
 requirements:
   build:
     - bmi-babel
-    - pymt
     - permamodel
   run:
     - bmi-babel
     - permamodel
+    - matplotlib
 
 test:
   requires:
