@@ -11,11 +11,11 @@ source:
 
 requirements:
   build:
-    - bmi-babel
+    - babelizer
     - pymt
     - permamodel
   run:
-    - bmi-babel
+    - babelizer
     - permamodel
 
 test:
