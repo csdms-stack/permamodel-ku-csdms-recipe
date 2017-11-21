@@ -12,11 +12,13 @@ source:
 requirements:
   build:
     - babelizer
-    - pymt
     - permamodel
+    - scipy <=0.18.1
   run:
     - babelizer
     - permamodel
+    - scipy <=0.18.1
+    - matplotlib
 
 test:
   requires:
