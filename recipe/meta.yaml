@@ -11,11 +11,11 @@ source:
 
 requirements:
   build:
-    - bmi-babel
+    - babelizer
     - permamodel
     - scipy <=0.18.1
   run:
-    - bmi-babel
+    - babelizer
     - permamodel
     - scipy <=0.18.1
     - matplotlib
